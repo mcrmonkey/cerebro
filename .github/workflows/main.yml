@@ -1,7 +1,9 @@
+name: Release
 
-name: main
-
-on: [release]
+on:
+  release:
+    types:
+      - published
 
 jobs:
 
