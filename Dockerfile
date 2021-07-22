@@ -3,7 +3,7 @@ LABEL MAINTAINER ant@manchestermonkey.co.uk
 
 RUN apk update && apk add bash openjdk8-jre
 
-ENV CEREBRO_VER 0.9.3
+ENV CEREBRO_VER 0.9.4
 
 ADD https://github.com/lmenezes/cerebro/releases/download/v${CEREBRO_VER}/cerebro-${CEREBRO_VER}.tgz /
 
